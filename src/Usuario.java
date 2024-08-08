@@ -7,7 +7,7 @@ public class Usuario {
 
         convidadoRepository.adicionarConvidado("Lucas", 0);
         convidadoRepository.adicionarConvidado("Matheus", 1);
-        convidadoRepository.adicionarConvidado("Priscila", 2);
+        convidadoRepository.adicionarConvidado("Priscila", 1);
         convidadoRepository.adicionarConvidado("Gerson", 3);
         convidadoRepository.adicionarConvidado("Paula", 4);
 
@@ -15,5 +15,7 @@ public class Usuario {
         System.out.println(convidadoRepository.exibirConvidados());
 
         System.out.println("Quantidade de convidados: " + convidadoRepository.contarConvidados());
+
+        
     }
 }

@@ -20,8 +20,6 @@ public class ConvidadoRepository {
             if (c.getCodigoConvite() == codigoConvite) {
                 convidadoParaRemover = c;
                 break;
-            } else {
-                System.out.println("Não Exists convidado com else codigo de convite");
             }
             convidadoSet.remove(convidadoParaRemover);
         }
